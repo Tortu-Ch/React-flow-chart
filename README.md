@@ -1,6 +1,5 @@
 # React Flow Chart
 
-[![CircleCI](https://circleci.com/gh/MrBlenny/react-flow-chart.svg?style=svg)](https://circleci.com/gh/MrBlenny/react-flow-chart)
 
 - [X] Dragabble Nodes and Canvas
 - [x] Create curved links between ports
@@ -16,9 +15,6 @@
 - [ ] Arrow heads on links
 - [ ] Docs
 
-### [Storybook Demo](https://mrblenny.github.io/react-flow-chart/index.html?selectedKind=With%20Sidebar&selectedStory=default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook-addon-viewport%2Faddon-panel)
-
-### [CodeSandbox Demo](https://codesandbox.io/s/4w46wv71o7)
 
 This project aims to build a highly customisable, declarative flow chart library. Critically, you control the state. Pick from Redux, MobX, React or any other state managment library - simply pass in the current state and hook up the callbacks.
 
@@ -188,19 +184,6 @@ const Example = (
   <FlowChartWithState initialValue={chartSimple} />
 );
 ```
-
-### With Internal State
-[stories/InternalReactState.tsx](./stories/InternalReactState.tsx)
-
-### With External State
-[stories/ExternalReactState.tsx](./stories/ExternalReactState.tsx)
-
-### Readonly Mode
-[stories/ReadonlyMode.tsx](./stories/ReadonlyMode.tsx)
-
-### Other Demos
-[stories/ExternalReactState.tsx](./stories)
-
 
 ## Contributing
 
